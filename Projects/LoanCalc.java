@@ -1,4 +1,6 @@
-public class LoanCalculator{
+import java.util.Scanner;
+
+public class LoanCalc{
     public static int mode = -1;
     public static double loanAmt = -1;
     public static int loanTerm = -1;
@@ -24,7 +26,7 @@ public class LoanCalculator{
             flatInterest();
         }
         else {
-            System.out.println("Other modes not yet supported.") //Replace this with calls to your appropriate functions           
+            System.out.println("Other modes not yet supported."); //Replace this with calls to your appropriate functions           
         }
     }
 
@@ -42,3 +44,4 @@ public class LoanCalculator{
         );
     }
 }
+
